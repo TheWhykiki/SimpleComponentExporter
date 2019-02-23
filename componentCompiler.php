@@ -56,8 +56,7 @@ xcopy('administrator/components/'.$componentName,'copiedComponent/'.$componentNa
 xcopy('components/'.$componentName,'copiedComponent/'.$componentName.'/site');
 
 xcopy('media/'.$componentName,'copiedComponent/'.$componentName.'/media');
-echo 'davor';
 
 rename('copiedComponent/'.$componentName.'/admin/'.str_replace ( 'com_' , '',$componentName).'.xml', 'copiedComponent/'.$componentName.'/'.str_replace ( 'com_' , '',$componentName).'.xml');
-echo 'dahinter';
+
 ?>
